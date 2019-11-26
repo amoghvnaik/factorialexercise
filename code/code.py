@@ -1,9 +1,15 @@
-number = int(input("Enter number: "))
-for n in range():
-    numberx = number/2
-    n = n + 1
-    return numberx
-if numberx = 1:
-    print(n)
-else:
-    print("NONE")
+def factorial(number):
+    for n in range(1, number):
+        numberx = number/n
+        if numberx > 1:
+            n = n + 1
+            continue
+        elif numberx == 1:
+            return(n)
+            break
+        else:
+            return("NONE")
+            break
+            
+print(factorial(6))
+    
