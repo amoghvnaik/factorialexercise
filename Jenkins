@@ -1,0 +1,6 @@
+ssh amoghvnaik@35.234.133.131 << EOF
+rm-rf ./factorialexercise
+git clone https://github.com/amoghvnaik/factorialexercise.git
+cd ./factorialexercise
+python3 -m pytest test/test_something.py
+EOF
