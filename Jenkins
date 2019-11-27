@@ -5,6 +5,14 @@ cd ./factorialexercise
 python3 -m pytest test/test_something.py
 EOF
 
+SSH:
+sudo du - jenkins
+ssh-keygen
+Copy public key to VM2
+ssh username@publicip
+Install pytest on VM2
+Install git on both VMs
+
 If problem:
 sudo visudo
 [username] ALL=(ALL:ALL) NOPASSWD:ALL
