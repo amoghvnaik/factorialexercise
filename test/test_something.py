@@ -1,5 +1,5 @@
 import pytest
-from code import something
+from application import something
 
 
 def test_factorial_5():
