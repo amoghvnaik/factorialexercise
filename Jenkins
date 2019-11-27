@@ -4,3 +4,7 @@ git clone https://github.com/amoghvnaik/factorialexercise.git
 cd ./factorialexercise
 python3 -m pytest test/test_something.py
 EOF
+
+If problem:
+sudo visudo
+[username] ALL=(ALL:ALL) NOPASSWD:ALL
